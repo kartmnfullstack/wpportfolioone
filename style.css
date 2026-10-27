@@ -35,7 +35,7 @@
   line-height: 1.6;
 }
 
-.portfolio-class,
+
 .site-content .ast-container {
     max-width: 100% !important;
     width: 100% !important;
@@ -52,6 +52,26 @@
     padding: 0 !important;
 }
 
+
+.site-content .alignfull {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-top: 0 !important;
+}
+
+.portfolio-hero-wrapper > *:not(.alignfull) {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 section.bg-black {
     width: 100% !important;
     min-width: 100% !important;
@@ -67,8 +87,9 @@ section.bg-black .container {
 }
 
 .horizontal-slide-box {
-    min-height: 160px !important; 
+    min-height: 360px !important; 
     border-radius: 12px;
+    min-width: 400px;
 }
 
 .testimonial-img {
@@ -83,4 +104,31 @@ section.bg-black .container {
     .testimonial-divider {
         border-right: 1px solid rgba(255, 255, 255, 0.15);
     }
+}
+
+
+.page-template-page-development-for-portfolio .site-content,
+.page-template-page-development-for-portfolio #primary,
+.page-template-page-development-for-portfolio .ast-container {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.page-template-page-development-for-portfolio .wp-block-cover,
+.page-template-page-development-for-portfolio .wp-block-cover.alignfull {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
+    margin-top: -90px !important;
+    min-height: 100vh !important;
+    position: relative;
+    left: 50%;
+    right: 50%;
+}
+
+.page-id-2405 .entry-title {
+    display: none !important;
 }
